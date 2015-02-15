@@ -1,0 +1,19 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+<div class="row text-center mb-10">
+    <h2>
+        {{ code }}
+    </h2>
+</div>
+<div class="row text-center mb-10">
+    <a href="/fuckedup/{{ code }}" class="btn btn-primary">
+        Ce code ne marche pas !
+    </a>
+</div>
+<div class="row text-center mb-10">
+    <a href="/get/{{ type }}" class="btn btn-primary">
+        Avoir un autre code
+    </a>
+</div>
+{% endblock content %}

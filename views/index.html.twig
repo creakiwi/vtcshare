@@ -1,0 +1,43 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+<div class="row mb-10">
+    <div class="col-md-6 text-right">
+        <h2>Obtenir un code</h2>
+        <div class="btn-group">
+            <a href="/get/uber" class="btn btn-primary btn-lg btn-xlg">
+                <i class="fa fa-download dark-blue"></i>
+                Uber
+            </a>
+            <button type="button" class="btn btn-primary btn-lg btn-xlg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/get/drive">Drive</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <h2>Partager un code</h2>
+        <div class="btn-group">
+            <a href="/share/uber" class="btn btn-primary btn-lg btn-xlg">
+                <i class="fa fa-share-alt dark-blue"></i>
+                Uber
+            </a>
+            <button type="button" class="btn btn-primary btn-lg btn-xlg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/share/drive">Drive</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row text-center mb-10">
+    <a class="btn btn-primary btn-lg btn-xlg" href="https://play.google.com/store/apps/details?id=com.vtcshare">
+        <i class="fa fa-android dark-blue"></i> Android App
+    </a>
+</div>
+{% endblock content %}

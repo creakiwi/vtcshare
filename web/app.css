@@ -1,0 +1,49 @@
+html, body
+{
+    background: #070716;
+}
+
+.btn.btn-primary
+{
+    background: #1ca8c3;
+}
+
+#header
+{
+    background: #070716;
+    padding-bottom: 10px;
+}
+
+.dark-blue
+{
+    color: #070716;
+}
+
+.mb-10
+{
+    margin-bottom: 10px;
+}
+/*
+.btn-xlg {
+    transform:scale(2.0,2.0);
+    -ms-transform:scale(2.0,2.0);
+    -moz-transform:scale(2.0,2.0);
+    -webkit-transform:scale(2.0,2.0);
+    -o-transform:scale(2.0,2.0);
+}
+*/
+
+span.btn
+{
+    cursor: default;
+}
+
+h1, h2
+{
+    color: #ffffff;
+}
+
+label
+{
+    color: #ffffff;
+}
